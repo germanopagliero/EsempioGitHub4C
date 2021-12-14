@@ -1,6 +1,6 @@
 ﻿namespace EsempioGitHub4C
 {
-    partial class Form1
+    partial class frmLancio
     {
         /// <summary>
         /// Variabile di progettazione necessaria.

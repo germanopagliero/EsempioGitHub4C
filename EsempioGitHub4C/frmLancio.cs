@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EsempioGitHub4C
 {
-    public partial class Form1 : Form
+    public partial class frmLancio : Form
     {
-        public Form1()
+        public frmLancio()
         {
             InitializeComponent();
         }
