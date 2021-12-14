@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnPremi = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnPremi
@@ -41,21 +42,31 @@
             this.btnPremi.UseVisualStyleBackColor = true;
             this.btnPremi.Click += new System.EventHandler(this.btnPremi_Click);
             // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(265, 107);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.TabIndex = 1;
+            // 
             // frmLancio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btnPremi);
             this.Name = "frmLancio";
             this.Text = "Saluti";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnPremi;
+        private System.Windows.Forms.TextBox txtNome;
     }
 }
 

@@ -19,7 +19,7 @@ namespace EsempioGitHub4C
 
         private void btnPremi_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Salve mondo");
+            MessageBox.Show("Salve " + txtNome.Text);
         }
     }
 }
