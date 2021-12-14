@@ -16,5 +16,10 @@ namespace EsempioGitHub4C
         {
             InitializeComponent();
         }
+
+        private void btnPremi_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Salve mondo");
+        }
     }
 }

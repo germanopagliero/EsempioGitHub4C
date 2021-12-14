@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnPremi = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnPremi
+            // 
+            this.btnPremi.Location = new System.Drawing.Point(143, 104);
+            this.btnPremi.Name = "btnPremi";
+            this.btnPremi.Size = new System.Drawing.Size(75, 23);
+            this.btnPremi.TabIndex = 0;
+            this.btnPremi.Text = "Premi";
+            this.btnPremi.UseVisualStyleBackColor = true;
+            this.btnPremi.Click += new System.EventHandler(this.btnPremi_Click);
+            // 
+            // frmLancio
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.btnPremi);
+            this.Name = "frmLancio";
+            this.Text = "Saluti";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnPremi;
     }
 }
 
